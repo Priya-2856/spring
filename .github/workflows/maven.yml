@@ -49,5 +49,4 @@ jobs:
                export PATH=$PATH:$JAVA_HOME/bin && \
                echo $PATH && \
                apt-get install maven -y && \
-               mvn clean install && \
                mvn spring-boot:run'
